@@ -1,0 +1,183 @@
+* {
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background-color: red;
+
+    max-height: 5%;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0px 25px;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.link-list {
+    background-color: yellow;
+
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    margin-right: 0px;
+}
+
+.link {
+
+}
+
+/* Page body */
+
+.page-body {
+    background-color: lightblue;
+
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: violet;
+
+    margin: 0px;
+    padding: 20px 80px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-left {
+    width: 50%;
+}
+
+.image-holder {
+    background-color: white;
+    width: 50%;
+    height: 65%;
+}
+
+.middle {
+    background-color: white;
+
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 100px 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 0px;
+
+}
+
+.gallery-image {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.piece-description {
+    background-color: red;
+    text-align: center;
+    max-width: 70%;
+    font-size: 12px;
+}
+
+.gallery-piece {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom {
+    background-color: lime;
+
+    margin: 0px;
+    padding: 40px 80px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    margin: 0px auto;
+    
+}
+
+.quote-author {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.bottomer {
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    margin: 40px 80px;
+    display: flex;
+    padding: 20px 40px;
+}
+
+.sign-up-text {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+/* Footer */
+
+.footer {
+    background-color: lightgreen;
+
+    max-height: 5%;
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 0px;
+}
+
+.footer-copyright {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+.title {
+    background-color: brown;
+}
+
+.description {
+
+}
+
+.sign-up {
+
+}
