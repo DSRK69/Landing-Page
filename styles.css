@@ -14,13 +14,15 @@ body {
     flex-direction: column;
     max-width: 750px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
 
 .header {
-    background-color: red;
+    background-color: #1F2937;
 
+    color: white;
     max-height: 5%;
     display: flex;
     flex: 1 1 auto;
@@ -34,22 +36,23 @@ body {
 }
 
 .link-list {
-    background-color: yellow;
 
     display: flex;
     justify-content: space-around;
     flex: 1 1 auto;
     margin-right: 0px;
+    list-style: none;
 }
 
 .link {
-
+    text-decoration: none;
+    color: white;
 }
 
 /* Page body */
 
 .page-body {
-    background-color: lightblue;
+    background-color: white;
 
     flex: 1 1 auto;
     display: flex;
@@ -57,8 +60,9 @@ body {
 }
 
 .top {
-    background-color: violet;
+    background-color: #1F2937;
 
+    color: white;
     margin: 0px;
     padding: 20px 80px 20px;
 
@@ -72,14 +76,12 @@ body {
 }
 
 .image-holder {
-    background-color: white;
+    background-color: #bbbcbe;
     width: 50%;
     height: 65%;
 }
 
 .middle {
-    background-color: white;
-
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -94,16 +96,15 @@ body {
 }
 
 .gallery-image {
-    background-color: lightblue;
+    border: 3px #3882F6 solid;
     width: 100px;
     height: 100px;
 }
 
 .piece-description {
-    background-color: red;
     text-align: center;
     max-width: 70%;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .gallery-piece {
@@ -115,36 +116,42 @@ body {
 }
 
 .bottom {
-    background-color: lime;
+    background-color: #E5E7EB;
 
     margin: 0px;
-    padding: 40px 80px;
+    padding: 50px 120px;
 
     display: flex;
     flex-direction: column;
 }
 
 .quote {
+    color: #3e4550;
     margin: 0px auto;
+    font-size: medium;
     
 }
 
 .quote-author {
     margin-left: auto;
     margin-right: 0px;
+    font-size: 14px;
 }
 
 .bottomer {
-    background-color: red;
+    background-color: #3882F6;
 
+    color: white;
     display: flex;
     align-items: center;
     margin: 40px 80px;
     display: flex;
-    padding: 20px 40px;
+    padding: 20px 30px;
+    gap: 15px;
 }
 
 .sign-up-text {
+    color: white;
     margin-left: 0px;
     margin-right: auto;
 }
@@ -152,7 +159,7 @@ body {
 /* Footer */
 
 .footer {
-    background-color: lightgreen;
+    background-color: #1F2937;
 
     max-height: 5%;
     display: flex;
@@ -163,6 +170,8 @@ body {
 .footer-copyright {
     flex: 1 1 auto;
     text-align: center;
+    color: white;
+    font-size: 10px;
 }
 
 
@@ -171,7 +180,7 @@ body {
 
 
 .title {
-    background-color: brown;
+    
 }
 
 .description {
@@ -179,5 +188,8 @@ body {
 }
 
 .sign-up {
-
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px white solid;
 }
